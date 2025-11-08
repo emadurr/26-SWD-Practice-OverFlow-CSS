@@ -1,0 +1,8 @@
+.box{
+    background-color: rgb(194, 226, 255);
+    width: 300px;
+    height: 300px;
+    border:2px solid black;
+    overflow:auto;
+    /* white-space: nowrap;  for horizontal scroll*/
+}
