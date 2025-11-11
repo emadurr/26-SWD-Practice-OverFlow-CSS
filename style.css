@@ -1,8 +1,20 @@
 .box{
     background-color: rgb(194, 226, 255);
-    width: 300px;
+    width: 150px;
     height: 300px;
     border:2px solid black;
     overflow:auto;
     /* white-space: nowrap;  for horizontal scroll*/
+    display:inline-block;
+}
+.box2{
+    margin-left: 100px;
+    background-color: rgb(194, 226, 255);
+    width: 150px;
+    height: 300px;
+    border:2px solid black;
+    display:inline-block;
+    overflow-x: auto;
+    overflow-y:hidden;
+    
 }
